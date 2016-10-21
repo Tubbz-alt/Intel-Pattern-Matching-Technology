@@ -11,15 +11,16 @@ This library can be used in the following development environments:
 
 ## Library Contents
 ```
-src
-    |- CuriePME.cpp
-    |- CuriePME.h
-examples
-    |- a_SimplePatternMatching
-    |- b_SavingKnowledge
-    |- c_RestoringKnowledge
-    |- d_k-nearest-neighbor
-    |- DrawingInTheAir 
+Intel-Pattern-Matching-Technology
+                                 |- src
+                                        |- CuriePME.cpp
+                                        |- CuriePME.h
+                                 |- examples
+                                        |- a_SimplePatternMatching
+                                        |- b_SavingKnowledge
+                                        |- c_RestoringKnowledge
+                                        |- d_k-nearest-neighbor
+                                        |- DrawingInTheAir 
 ```
 
 ## Library Usage Arduino IDE
