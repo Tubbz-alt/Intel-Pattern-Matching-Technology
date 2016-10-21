@@ -2,6 +2,8 @@
 
 This repository contains the Intel Pattern Matching Library code that can run on the Pattern Matching Engine in the Intel® Curie™ Compute Module, which is used on the Arduino/Genuino 101 from Arduino and the tinyTile from Farnell.
 
+## Development Environments
+
 This library can be used in the following development environments:
 
 * On Windows, Mac-OS or Linux, using Arduino IDE version 1.6.12 or greater and Corelibs 1.0.7 or greater.
