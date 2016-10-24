@@ -48,3 +48,12 @@ For Example:
         
         
 Follow the instructions in the README file for each example to run the sample application.
+
+## Procedure to run examples on the Arduino IDE
+
+All the examples in the Intel Pattern Matching Technology Library can be opened and run directly from the Arduino IDE just like any other examples from a custom Arduino Library. Using the Arduino Menu select an example sketch using the following 
+
+        File -> Examples -> (Under the grouping "Examples from Custom Libraries") Intel_PatternMatching ->  (Select one of the example Sketches)
+
+
+[Examples from Libraries](https://www.arduino.cc/en/Tutorial/LibraryExamples)
