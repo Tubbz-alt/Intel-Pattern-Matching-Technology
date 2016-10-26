@@ -1,1 +1,1 @@
-# Neural Network with Curie Accelerometer Example
+# Neural Network with Accelerometer Input Example
