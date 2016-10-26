@@ -29,24 +29,9 @@ Intel-Pattern-Matching-Technology
 
         `$(ARDUINOSW_DIR)/libraries/ `
 
-2. In the CODK-M directory, create a new project
-
-        `make project PROJ_DIR=my_ipmt_sample `
-
-3. Edit the Makefile and add the following:
+2. Edit your Makefile and add the following:
 
         `LIBDIR = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src `
-
-4. Copy an example sketch from the library into your project and use
-        `make convert-sketch ` 
-   or create your own C++ application file.
-
-5. Build and Flash your project:
-
-        ```
-        $>make compile
-        $>make upload SERIAL_PORT=/dev/ttyACM0
-        ```
 
 ## Library Usage Arduino IDE
 
