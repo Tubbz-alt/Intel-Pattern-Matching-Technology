@@ -27,11 +27,11 @@ Intel-Pattern-Matching-Technology
 
 1. From the GitHub repository, download the library Zip file and copy it into the user library folder in your CODK-M directory. Rename the library directory "Intel-Pattern-Matching-Technology".
 
-        `$(ARDUINOSW_DIR)/libraries/ `
+        $(ARDUINOSW_DIR)/libraries/ 
 
 2. Edit your Makefile and add the following:
 
-        `LIBDIR = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src `
+        LIBDIR = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src 
 
 ## Library Usage Arduino IDE
 
