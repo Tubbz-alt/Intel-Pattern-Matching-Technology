@@ -3,7 +3,11 @@
 This example is for a simple pattern matching function implemented using the 
 Intel Pattern Matching Technology Engine which is a hardware neural-network.
 
-
+In a neural-network, unlike a programmed pattern matching algorithm, there is
+a learning phase when the neural-network is trained to recognize a training set
+of input patterns. Once this is done, the neural-network is able to recognize 
+exactly matching or similar patterns and also identify patterns that are not 
+part of the training set.
 
 ## Hardware Requirements
 
