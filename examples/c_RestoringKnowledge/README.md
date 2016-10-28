@@ -46,7 +46,7 @@ in order to recognize an Input Pattern.
 
 ## Running the Sample
 
-When the sample runs, it looks for and loads the file NeurData.dat from the on-board flash. Once the neurons have restored their knowledge from file, as before, the program asks for an input vector of Three Numbers that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
+When the sample runs, it attempts to load the file NeurData.dat from the on-board flash. As before, the program asks for an input vector of Three Numbers that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
 
 **Note:** Any entry that is greater than 255 will be constrained to 255
 
@@ -96,7 +96,7 @@ response that it does not match trained categories.
    Which didn't match any of the trained categories.
 ```
 
-**Note:** The file NeurData.dat is created the first time you run the previous sample, b_SavingKnowledge. Hence you should run that sample before running this sample c_RestoringKnowledge. The sample does not check whether the NeurData.dat file exists and will remain untrained and unable to perform any pattern matching.
+**Warning:** The file NeurData.dat is created the first time you run the previous sample, b_SavingKnowledge. Hence you should run that sample before running this sample c_RestoringKnowledge. The current sample does not check whether the NeurData.dat file exists and will remain untrained and unable to perform any pattern matching if the file is missing.
 
 **For Example:**
 
