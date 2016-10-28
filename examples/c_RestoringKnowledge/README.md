@@ -1,10 +1,10 @@
 # Restoring Knowledge Example
 
-In the first example, we trained the neural-network to recognize a training set of input patterns. However, the learned knowledge was volatile and initializing the neural-network caused the neurons to forget all that was learned.
+In the first example (a_SimplePatternMatching), we trained the neural-network to recognize a training set of input patterns. However, the learned knowledge was volatile and initializing the neural-network caused the neurons to forget all that was learned and they had to be retrained before use.
 
-The second example showed how the learned knowledge could be saved into a file on the on-board flash memory so that once the neural-network was trained, it could recall it's knowledge from the file without having to retrain and learn the knowledge all over again.
+The second example (b_SavingKnowledge) showed how the learned knowledge could be saved into a file on the on-board flash memory so that once the neural-network was trained, it could potentially recall it's knowledge from the file without having to retrain and learn the knowledge all over again.
 
-The current example shows how to restore the previously learned knowledge stored on file back to the neural-network. In this example, an un-trained neural-network retrieves previously learned knowledge from file and can immediately begin performing pattern matching.
+The current example (c_RestoringKnowledge) shows how to restore the previously learned knowledge stored on file back to the neural-network. In this example, an un-trained neural-network retrieves previously learned knowledge from file and can immediately begin performing pattern matching without needing to be retrained.
 
 Knowledge learned by one neural-network can be transfered to another previously un-trained neural-network using this method thus eliminating the learning/training phase for subsequent neural-networks for the same task.
 
