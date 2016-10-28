@@ -27,17 +27,17 @@ On the Arduino IDE, the Built-in Serial Monitor can be used.
 
 ### Serial Terminal Settings
 
-   Device      : /dev/ttyACM0
+   **Device      :** /dev/ttyACM0
    
-   Speed       : 9600
+   **Speed       :** 9600
    
-   Data Bits   : 1
+   **Data Bits   :** 1
    
-   Stop Bits   : 1
+   **Stop Bits   :** 1
    
-   Parity      : None
+   **Parity      :** None
    
-   Flow Control: None
+   **Flow Control:** None
 
 **Note:** Ensure that you turn on Newline or Both Newline and Carriage Return in the emulation settings as this sample requires the Newline character.
 
