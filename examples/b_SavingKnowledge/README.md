@@ -2,7 +2,7 @@
 
 In the previous example, we trained the neural-network to recognize a training set of input patterns. This knowledge is volatile in that initializing the neural-network will cause the neurons to forget all that was learned.
 
-The current example shows how the learned knowledge can be saved into a file on the on-board flash memory so that once the neural-network is trained, it can recall it's knowledge from the file without having to retrain an learn the knowledge all over again. This is useful when training sets are large or when you want to replicate the knowledge to multiple neural-networks.
+The current example shows how the learned knowledge can be saved into a file on the on-board flash memory so that once the neural-network is trained, it can recall it's knowledge from the file without having to retrain and learn the knowledge all over again. This is useful when training sets are large or when you want to replicate the knowledge to multiple neural-networks.
 
 ## Hardware Requirements
 
