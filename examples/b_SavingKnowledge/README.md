@@ -95,7 +95,7 @@ of the learned Patterns, then it is recognized as such.
 ```
 
 If you enter an Input Vector that is not similar or that doesn't match
-a learned Pattern, then the Patern Matcher returns an appropriate
+a learned Pattern, then the Pattern Matcher returns an appropriate
 response that it does not match trained categories. 
 
 **For Example:**
