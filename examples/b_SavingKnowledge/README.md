@@ -2,7 +2,7 @@
 
 In the previous example, we trained the neural-network to recognize a training set of input patterns. This knowledge is volatile in that initializing the neural-network will cause the neurons to forget all that was learned.
 
-The current example shows how the learned knowledge can be saved into a file on the on-board flash memory so that once the neural-network is trained, it can recall it's knowledge from the file.
+The current example shows how the learned knowledge can be saved into a file on the on-board flash memory so that once the neural-network is trained, it can recall it's knowledge from the file without having to retrain an learn the knowledge all over again. This is useful when training sets are large or when you want to replicate the knowledge to multiple neural-networks.
 
 ## Hardware Requirements
 
@@ -44,8 +44,7 @@ in order to recognize an Input Pattern.
 ## Running the Sample
 When the sample runs and the Pattern Matching is initialized, training begins using the built in training set that trains the Pattern Matcher to recogrnize Six Categories of Patterns.
 
-Once this is complete, the program writes the data to a file on the flash.Once this is done, as before, the program asks for an input vector of Three Numbers
-that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
+Once this is complete, the program writes the data to a file on the flash and, as before, the program asks for an input vector of Three Numbers that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
 
 **Note:** Any entry that is greater than 255 will be constrained to 255
 
