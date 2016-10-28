@@ -84,7 +84,14 @@ of the learned Patterns, then it is recognized as such. For Example:
    is category: 1
 ```
 
+If you enter an Input Vector that is not similar or that matches one
+of the learned Patterns, then the Patern Matcher returns an appropriate
+response that it does not match trained categories. For Example:
 
+```
+   You entered: 255,255,255
+   Which didn't match any of the trained categories.
+```
 
 
 
