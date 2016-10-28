@@ -76,7 +76,9 @@ a Newline character is recognized.
 ### Output 
 
 If you enter an Input Vector that is similar or closely matching one 
-of the learned Patterns, then it is recognized as such. For Example:
+of the learned Patterns, then it is recognized as such. 
+
+**For Example:**
 
 ```
    You entered: 10,25,30
@@ -86,7 +88,9 @@ of the learned Patterns, then it is recognized as such. For Example:
 
 If you enter an Input Vector that is not similar or that matches one
 of the learned Patterns, then the Patern Matcher returns an appropriate
-response that it does not match trained categories. For Example:
+response that it does not match trained categories. 
+
+**For Example:**
 
 ```
    You entered: 255,255,255
