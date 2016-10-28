@@ -20,21 +20,31 @@ Intel Pattern Matching Technology Engine which is a hardware neural-network.
 
 ## Serial Terminal Emulator
 
-This example interacts with the user via a serial terminal. On Ubuntu, a serial terminal emulator such as CuteCOM or Putty or Screen needs to be installed before running the example. On the Arduino IDE, the Built-in Serial Monitor can be used.
+This example interacts with the user via a serial terminal. 
+On Ubuntu, a serial terminal emulator such as CuteCOM or Putty or Screen needs to 
+be installed before running the example. 
+On the Arduino IDE, the Built-in Serial Monitor can be used.
 
 ### Serial Terminal Settings
 
    Device      : /dev/ttyACM0
+   
    Speed       : 9600
+   
    Data Bits   : 1
+   
    Stop Bits   : 1
+   
    Parity      : None
+   
    Flow Control: None
 
 **Note:** Ensure that you turn on Newline or Both Newline and Carriage Return in the emulation settings as this sample requires the Newline character.
 
 ## Running the Sample
+When the sample runs and the Pattern Matching is initialized, training begins and t
 
+```
    Neurons committed before learning = 0
    Category 1 trained with: 11, 24, 29
  
@@ -51,7 +61,7 @@ This example interacts with the user via a serial terminal. On Ubuntu, a serial 
    Neurons committed after learning = 6
    Now enter 3 numbers, between 0 and 255, separated by a comma. 
    Like 11, 24, 29 
-
+```
 
 
 
