@@ -39,10 +39,20 @@ On the Arduino IDE, the Built-in Serial Monitor can be used.
    
    **Flow Control:** None
 
-**Note:** Ensure that you turn on Newline or Both Newline and Carriage Return in the emulation settings as this sample requires the Newline character.
+**Note:** Ensure that you turn on Both Newline and Carriage Return 
+in the emulation settings as this sample requires the Newline character
+in order to recognize an Input Pattern.
 
 ## Running the Sample
-When the sample runs and the Pattern Matching is initialized, training begins and t
+When the sample runs and the Pattern Matching is initialized, training begins 
+using the built in training set that trains the Pattern Matcher to recogrnize 
+Six Categories of Patterns.
+
+Once this is complete, the terminal asks for an input vector of Three Numbers
+that are comma separated and between 0 to 255. The Pattern is analyzed when
+a Newline character is recognized.
+
+**Note:** Any entry that is greater than 255 will be constrained to 255
 
 ```
    Neurons committed before learning = 0
@@ -63,7 +73,16 @@ When the sample runs and the Pattern Matching is initialized, training begins an
    Like 11, 24, 29 
 ```
 
+### Output 
 
+If you enter an Input Vector that is similar or closely matching one 
+of the learned Patterns, then it is recognized as such. For Example:
+
+```
+   You entered: 10,25,30
+   The closest match to the trained data 
+   is category: 1
+```
 
 
 
