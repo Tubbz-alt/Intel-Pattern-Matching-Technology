@@ -86,8 +86,8 @@ of the learned Patterns, then it is recognized as such.
    is category: 1
 ```
 
-If you enter an Input Vector that is not similar or that matches one
-of the learned Patterns, then the Patern Matcher returns an appropriate
+If you enter an Input Vector that is not similar or that doesn't match
+a learned Pattern, then the Patern Matcher returns an appropriate
 response that it does not match trained categories. 
 
 **For Example:**
