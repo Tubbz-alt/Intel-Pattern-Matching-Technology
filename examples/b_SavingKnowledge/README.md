@@ -89,9 +89,9 @@ of the learned Patterns, then it is recognized as such.
 **For Example:**
 
 ```
-   You entered: 10,25,30
+   You entered: 18,76,40
    The closest match to the trained data 
-   is category: 1
+   is category: 2
 ```
 
 If you enter an Input Vector that is not similar or that doesn't match
@@ -101,6 +101,6 @@ response that it does not match trained categories.
 **For Example:**
 
 ```
-   You entered: 255,255,255
+   You entered: 0,0,0
    Which didn't match any of the trained categories.
 ```
