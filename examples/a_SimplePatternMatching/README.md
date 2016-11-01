@@ -17,7 +17,7 @@ In a neural-network, unlike a programmed pattern matching algorithm, there is a 
    Connect the USB cable between the host machine and the Arduino/Genuino 101
    USB port or the tinyTile USB port
 
-[Serial Terminal Emulator Settings](.SerialSettings.md)
+[Serial Terminal Emulator Settings](../SerialSettings.md)
 
 ## Running the Sample
 When the sample runs and the Pattern Matching is initialized, training begins 
