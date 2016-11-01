@@ -25,11 +25,13 @@ Intel-Pattern-Matching-Technology
 
 ## Library Usage CODK-M
 
-1. From the GitHub repository, download the library Zip file and copy it into the user library folder in your CODK-M directory. Rename the library directory "Intel-Pattern-Matching-Technology".
+1. From the GitHub repository, download the library Zip file and copy it into the user library directory in your CODK-M/arc directory.  `$(ARDUINOSW_DIR)/libraries/ ` and rename the library directory "Intel-Pattern-Matching-Technology". Alternately, you can git clone the library into the libraries directory using the following command:
 
-        $(ARDUINOSW_DIR)/libraries/ 
+```
+   git clone https://github.com/01org/Intel-Pattern-Matching-Technology.git
+```       
 
-2. Edit your Makefile and add the following:
+2. In your project, edit your Makefile and add the following:
 
         LIBDIR = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src 
 
