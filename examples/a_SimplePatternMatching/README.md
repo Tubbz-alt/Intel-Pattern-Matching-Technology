@@ -6,11 +6,7 @@ In a neural-network, unlike a programmed pattern matching algorithm, there is a 
 
 ## Hardware Requirements
 
-   Arduino/Genuino 101 or Farnell tinyTile board based on Intel Curie Compute Module.
-   
-   Appropriate USB Cable for Curie based board.
-
-   No additonal hardware is needed for this example.
+   No additional hardware needed.
 
 ### Hardware Connections
    
