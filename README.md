@@ -6,8 +6,7 @@ This repository contains the Intel Pattern Matching Library code that can run on
 
 This library can be used in the following development environments:
 
-* On Windows, Mac-OS or Linux, using Arduino IDE version 1.6.12 or greater and Corelibs 1.0.7 or greater.
-* On Ubuntu 14.04 LTS, using the latest version of the Curie Open Development Kit - Mixed Tree (CODK-M)
+* On Ubuntu 14.04 LTS or 16.04 LTS, using the latest version of the Curie Open Development Kit - Mixed Tree (CODK-M)
 
 ## Library Contents
 ```
@@ -30,16 +29,3 @@ Intel-Pattern-Matching-Technology
 2. In your project, edit your Makefile and add the following:
 
         LIBDIR = $(ARDUINOSW_DIR)/corelibs/libraries/Intel-Pattern-Matching-Technology/src 
-
-## Library Usage Arduino IDE
-
-The Intel Pattern Matching Technology Library can be installed in the Arduino IDE just like any other Arduino Library using the Library Manager.
-
-[Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries)
-
-
-
-
-
-
-
