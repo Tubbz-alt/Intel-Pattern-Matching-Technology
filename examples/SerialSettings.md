@@ -3,7 +3,6 @@
 The included examples interact with the user via a serial terminal. 
 On Ubuntu, a serial terminal emulator such as CuteCOM or Putty or Screen 
 needs to be installed before running the example. 
-On the Arduino IDE, the Built-in Serial Monitor can be used.
 
 ## Serial Terminal Settings
 
