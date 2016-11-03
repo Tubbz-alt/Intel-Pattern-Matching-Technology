@@ -29,3 +29,10 @@ Intel-Pattern-Matching-Technology
 2. In your project, edit your Makefile and add the following:
 
         LIBDIR = $(ARDUINOSW_DIR)/corelibs/libraries/Intel-Pattern-Matching-Technology/src 
+
+## About the Library
+The Intel® Pattern Matching Technology library is optimized for pattern classification and supports the following 
+two major types of pattern classification algorithms:
+   1. k-nearest-neighbor
+   2. Radial Basis Function (RBF)
+
