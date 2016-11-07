@@ -12,7 +12,7 @@ All of the examples are available at the following path:
 1. In the CODK-M directory, create a new project with the same name as the example you want to run.
 For Example:
 
-        make project PROJ_DIR=a_SimplePatternMatching 
+        make project PROJ_DIR=a_SimplePatternMatching ARC_PROJ=arc/corelibs/libraries/Intel-Pattern-Matching-Technology/examples/a_SimplePatternMatching
         
 2. Change directory to your project directory
 For Example:
