@@ -19,6 +19,11 @@ Knowledge learned by one neural-network can be transfered to another previously 
 
 [Serial Terminal Emulator Settings](../SerialSettings.md)
 
+## Software Dependencies
+  * Intel-Pattern-Matching Library
+  * Serial Flash Library
+  * SPI Library
+
 ## Running the Sample
 
 When the sample runs, it attempts to load the file NeurData.dat from the on-board flash. As before, the program asks for an input vector of Three Numbers that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
