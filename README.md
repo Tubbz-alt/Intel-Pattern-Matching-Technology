@@ -30,14 +30,14 @@ Intel-Pattern-Matching-Technology
   * [SPI] (https://github.com/01org/corelibs-arduino101/tree/master/libraries/SPI)
   * [SerialFlash] (https://github.com/01org/corelibs-arduino101/tree/master/libraries/SerialFlash)
 
-In your project, edit your Makefile and add the following:
+  In your project, edit your Makefile and add the following:
 
-```
-  LIBDIRS = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src \
-	        $(ARDUINOSW_DIR)/corelibs/libraries/SPI/src \
-	        $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
+  ```
+    LIBDIRS = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src \
+	          $(ARDUINOSW_DIR)/corelibs/libraries/SPI/src \
+	          $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
 
-```
+  ```
 
 ### Installing from Github
 To install a cutting-edge version of the library directly from GitHub, follow the procedure listed below:
