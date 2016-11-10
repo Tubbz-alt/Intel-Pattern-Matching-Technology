@@ -23,17 +23,14 @@ For Example:
 
         $<UserName>/CODK/CODK-M/a_SimplePatternMatching/>source env.sh 
         
-4. Copy the example sketch file ending in .ino from the example directory into your project directory.
-For Example: (Do not forget the trailing period)
+4. Ensure that your Makefile has the LIBDIRS has the correct paths to the needed Library Dependencies for the example you are building.
 
-    cp ../arc/corelibs/libraries/Intel-Pattern-Matching-Technology/examples/a_SimplePatternMatching/a_SimplePatternMatching.ino . 
-        
-7. Convert the sketch into C++ by running `make convert-sketch`
+5. Next, convert the sketch into C++ by running `make convert-sketch`
 For Example:
 
         make convert-sketch SKETCH=a_SimplePatternMatching.ino 
         
-8. Now you can  Build and Flash your sample project:
+6. Now you can  Build and Flash your sample project:
 
         $>make compile
         $>make upload SERIAL_PORT=/dev/ttyACM0
