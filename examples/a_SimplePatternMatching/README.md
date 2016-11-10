@@ -15,6 +15,9 @@ In a neural-network, unlike a programmed pattern matching algorithm, there is a 
 
 [Serial Terminal Emulator Settings](../SerialSettings.md)
 
+## Software Dependencies
+  * Intel-Pattern-Matching Library
+
 ## Running the Sample
 When the sample runs and the Pattern Matching is initialized, training begins 
 using the built in training set that trains the Pattern Matcher to recogrnize 
