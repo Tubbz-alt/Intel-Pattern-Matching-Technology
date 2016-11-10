@@ -31,5 +31,35 @@ Intel-Pattern-Matching-Technology
         LIBDIR = $(ARDUINOSW_DIR)/corelibs/libraries/Intel-Pattern-Matching-Technology/src 
 
 ## About the Library
-The Intel® Pattern Matching Technology library is optimized for pattern classification.
+The Intel® Pattern Matching Technology library provides the API's necessary to implement a supervised machine-learning pattern matching or classification algorithm which is accelerated by the hardware pattern matching engine.
 
+## About the Intel® Curie™ Pattern Matching Engine
+
+The Pattern Matching Engine (PME) is a parralel data recognition engine with the following features:
+  + 128 parallel arithmetic units (Processing Element or PE) with 8-bit features per PE.
+  + Support for up to 128 Contexts
+  + Support for up to 32,768 categories
+  + 128 byte input vector and model memory.
+  + Two Transfer Functions:
+  
+     * k-nearest neighbors (KNN)
+     * Radial Basis Function (RBF)
+     
+  + Two distance evaluation norms with 16-bit resolution:
+     
+     * L1 or Manhattan Distance
+     * Lsup
+     
+  + Classification states:
+  
+     * ID - identified, only one category matches
+     * UNC - uncertain, more than one category matches
+     * UNK- unknown, no match
+   
+  + Basic Funtions:
+     * Learning Patterns
+     * Recognizing Patterns
+     * Storing Pattern Memory (Knowledge)
+     * Retrieving Pattern Memory (Knowledge)
+   
+     
