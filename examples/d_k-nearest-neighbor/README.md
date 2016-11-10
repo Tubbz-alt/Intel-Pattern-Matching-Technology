@@ -21,6 +21,10 @@ It also suffers from some down-sides such as needing a large amount of memory fo
 
 [Serial Terminal Emulator Settings](../SerialSettings.md)
 
+## Software Dependencies
+  * Intel-Pattern-Matching Library
+  * Serial Flash Library
+  * SPI Library
 
 ## Running the Sample
 
