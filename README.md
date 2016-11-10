@@ -33,6 +33,12 @@ Intel-Pattern-Matching-Technology
 ## About the Library
 The Intel® Pattern Matching Technology library provides the API's necessary to implement a supervised machine-learning pattern matching or classification algorithm which is accelerated by the hardware pattern matching engine.
 
+  + Basic Functions Supported:
+     * Learning Patterns
+     * Recognizing Patterns
+     * Storing Pattern Memory (Knowledge) [Requires SerialFlash Library]
+     * Retrieving Pattern Memory (Knowledge) [Requires SerialFlash Library]
+
 ## About the Intel® Curie™ Pattern Matching Engine
 
 The Pattern Matching Engine (PME) is a parralel data recognition engine with the following features:
@@ -55,11 +61,5 @@ The Pattern Matching Engine (PME) is a parralel data recognition engine with the
      * ID - identified, only one category matches
      * UNC - uncertain, more than one category matches
      * UNK- unknown, no match
-   
-  + Basic Funtions:
-     * Learning Patterns
-     * Recognizing Patterns
-     * Storing Pattern Memory (Knowledge)
-     * Retrieving Pattern Memory (Knowledge)
-   
+    
      
