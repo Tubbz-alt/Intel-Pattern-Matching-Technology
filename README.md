@@ -34,8 +34,8 @@ In your project, edit your Makefile and add the following:
 
 ```
   LIBDIRS = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src \
-	      $(ARDUINOSW_DIR)/corelibs/libraries/SPI/src \
-	      $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
+	        $(ARDUINOSW_DIR)/corelibs/libraries/SPI/src \
+	        $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
 
 ```
 
