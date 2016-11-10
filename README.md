@@ -26,9 +26,23 @@ Intel-Pattern-Matching-Technology
 
 1. The Intel Pattern Matching Library is pre-installed as part of the Curie ODK in the Corelibs libraries directory:  `$(ARDUINOSW_DIR)/corelibs/libraries `
 
-2. In your project, edit your Makefile and add the following:
+2. In addition, storing and retreiving knowledge needs the following Curie libraries:
+  * [SPI] (https://github.com/01org/corelibs-arduino101/tree/master/libraries/SPI)
+  * [SerialFlash] (https://github.com/01org/corelibs-arduino101/tree/master/libraries/SerialFlash)
 
-        LIBDIR = $(ARDUINOSW_DIR)/corelibs/libraries/Intel-Pattern-Matching-Technology/src 
+In your project, edit your Makefile and add the following:
+
+```
+  LIBDIRS = $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/src \
+	          $(ARDUINOSW_DIR)/corelibs/libraries/SPI/src \
+	          $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
+
+```
+
+### Installing from Github
+To install a cutting-edge version of the library directly from GitHub, follow the procedure listed below:
+
+[Function-Specific Libraries](https://software.intel.com/en-us/node/675548)
 
 ## About the Library
 The Intel® Pattern Matching Technology library provides the API's necessary to implement a supervised machine-learning pattern matching or classification algorithm which is accelerated by the hardware pattern matching engine.
