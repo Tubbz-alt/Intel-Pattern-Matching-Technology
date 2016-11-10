@@ -15,6 +15,11 @@ The current example shows how the learned knowledge can be saved into a file on 
 
 [Serial Terminal Emulator Settings](../SerialSettings.md)
 
+## Software Dependencies
+  * Intel-Pattern-Matching Library
+  * Serial Flash Library
+  * SPI Library
+
 ## Running the Sample
 When the sample runs and the Pattern Matching is initialized, training begins using the built in training set that trains the Pattern Matcher to recogrnize Six Categories of Patterns.
 
