@@ -58,8 +58,8 @@ The Pattern Matching Engine (PME) is a parralel data recognition engine with the
      
   + Classification states:
   
-     * ID - identified, only one category matches
-     * UNC - uncertain, more than one category matches
-     * UNK- unknown, no match
+     * ID  - Identified
+     * UNC - Uncertain
+     * UNK - Unknown
     
      
