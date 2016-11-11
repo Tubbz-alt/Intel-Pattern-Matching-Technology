@@ -60,7 +60,7 @@ The Pattern Matching Engine (PME) is a parralel data recognition engine with the
   + Support for up to 128 Contexts
   + Support for up to 32,768 Categories
   + 128 byte input vector and model memory.
-  + Two Transfer Functions:
+  + Two Classification Functions:
   
      * k-nearest neighbors (KNN)
      * Radial Basis Function (RBF)
