@@ -13,9 +13,9 @@ void setup() {
   Serial.begin(9600); // initialize Serial communication
   while (!Serial);    // wait for the serial port to open
 
-  // initialize the engine
+  // initialize the engine in default mode.
   CuriePME.begin();
-
+ 
   trainNeuronsWithData();
 }
 
