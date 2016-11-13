@@ -1,6 +1,6 @@
-# Neural Network Simple Pattern Matching Example
+# Simple Pattern Matching Example
 
-This example is for a simple pattern matching function implemented using the Intel Pattern Matching Technology Engine which is a hardware neural-network.
+This example is for a simple pattern matching function implemented using the Curie Pattern Matching Engine.
 
 In a neural-network, unlike a programmed pattern matching algorithm, there is a learning phase when the neural-network is trained to recognize a training set of input patterns. Once this is done, the neural-network is able to recognize exactly matching or similar patterns and also identify patterns that are not part of the training set.
 
@@ -19,13 +19,9 @@ In a neural-network, unlike a programmed pattern matching algorithm, there is a 
   * Intel-Pattern-Matching Library
 
 ## Running the Sample
-When the sample runs and the Pattern Matching is initialized, training begins 
-using the built in training set that trains the Pattern Matcher to recogrnize 
-Six Categories of Patterns.
+When the sample runs and the Curie PME is initialized, training begins using the built in training set that trains the Pattern Matcher to recognize Six Categories of Patterns.
 
-Once this is complete, the terminal asks for an input vector of Three Numbers
-that are comma separated and between 0 to 255. The Pattern is analyzed when
-a Newline character is recognized.
+Once this is complete, the terminal prompt asks for an input vector of Three Numbers that are comma separated and between 0 to 255. The Pattern is analyzed when a Newline character is recognized.
 
 **Note:** Any entry that is greater than 255 will be constrained to 255
 
@@ -50,8 +46,7 @@ a Newline character is recognized.
 
 ### Output 
 
-If you enter an Input Vector that is similar or closely matching one 
-of the learned Patterns, then it is recognized as such. 
+If you enter an Input Vector that is exactly matching or closely matching or even similar to one of the learned Patterns, then it is recognized as such and categorized accordingly. 
 
 **For Example:**
 
