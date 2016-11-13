@@ -1,6 +1,13 @@
 # Intel® Pattern Matching Technology
 
-This repository contains the Intel Pattern Matching Library code that can run on the Pattern Matching Engine in the Intel® Curie™ Compute Module, which is used on the Arduino/Genuino 101 from Arduino and the tinyTile from Farnell.
+This repository contains the Intel Pattern Matching Library library that provides access to the Pattern Matching Engine within the Intel® Curie™ Compute Module. 
+
+Supported Curie™ hardware platforms:
+
+* Arduino/Genuino 101 (Arduino)
+
+* tinyTILE (Farnell)
+
 
 ## Development Environments
 
@@ -38,11 +45,6 @@ Intel-Pattern-Matching-Technology
 	          $(ARDUINOSW_DIR)/corelibs/libraries/SerialFlash
 
   ```
-
-### Installing from Github
-To install a cutting-edge version of the library directly from GitHub, follow the procedure listed below:
-
-[Function-Specific Libraries](https://software.intel.com/en-us/node/675548)
 
 ## About the Library
 The Intel® Pattern Matching Technology library provides the API's necessary to implement a supervised machine-learning pattern matching or classification algorithm which is accelerated by the hardware pattern matching engine.
