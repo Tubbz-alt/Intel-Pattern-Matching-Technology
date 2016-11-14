@@ -1,6 +1,6 @@
 # Intel® Pattern Matching Technology
 
-This repository contains the Intel Pattern Matching Library library that provides access to the Pattern Matching Engine within the Intel® Curie™ Compute Module. 
+This repository contains the Intel Pattern Matching Library library (CuriePME) that provides access to the Pattern Matching Engine (PME) within the Intel® Curie™ Compute Module. 
 
 Supported Curie™ hardware platforms:
 
@@ -47,7 +47,7 @@ Intel-Pattern-Matching-Technology
   ```
 
 ## About the Library
-The Intel® Pattern Matching Technology library provides the API's necessary to implement a supervised machine-learning pattern matching or classification algorithm which is accelerated by the hardware pattern matching engine.
+The Intel® Pattern Matching Technology library provides the API's necessary to implement a machine-learning pattern matching or classification algorithms which are accelerated by the hardware pattern matching engine.
 
   + Basic Functions Supported:
      * Learning Patterns
@@ -58,24 +58,34 @@ The Intel® Pattern Matching Technology library provides the API's necessary to 
 ## About the Intel® Curie™ Pattern Matching Engine
 
 The Pattern Matching Engine (PME) is a parralel data recognition engine with the following features:
-  + 128 parallel arithmetic units (Processing Element or PE) with 8-bit features per PE.
-  + Support for up to 128 Contexts
-  + Support for up to 32,768 Categories
-  + 128 byte input vector and model memory.
-  + Two Classification Functions:
+  + 128 parallel Processing Elements (PE) each with"
   
-     * k-nearest neighbors (KNN)
-     * Radial Basis Function (RBF)
-     
-  + Two distance evaluation norms with 16-bit resolution:
-     
-     * L1 (Manhattan) Distance 
-     * Lsup Distance
-     
-  + Classification states:
+  	- 128 byte input vector and model memory.
+	- 8-Bit Arithmetic Units
+	- Two distance evaluation norms with 16-bit resolution:
+        	
+		* L1 norm (Manhattan Distance)
+        	* Lsup (Supremum) norm (Chebyshev Distance)
+		
+	- Support for up to 32,768 Categories
+	- Classification states:
   
-     * ID  - Identified
-     * UNC - Uncertain
-     * UNK - Unknown
+        	* ID  - Identified
+        	* UNC - Uncertain
+        	* UNK - Unknown
+	
+   + Two Classification Functions:
+  
+     	* k-nearest neighbors (KNN)
+     	* Radial Basis Function (RBF)
+	
+   + Support for up to 127 Contexts
+  
+  
+
+     
+  
+     
+
     
      
