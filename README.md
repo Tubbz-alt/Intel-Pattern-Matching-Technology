@@ -65,7 +65,7 @@ The Pattern Matching Engine (PME) is a parralel data recognition engine with the
 	- Two distance evaluation norms with 16-bit resolution:
         	
 		* L1 norm (Manhattan Distance)
-        	* Lsup (Supremum) norm (Chebyshev Distance)
+        * Lsup (Supremum) norm (Chebyshev Distance)
 		
 	- Support for up to 32,768 Categories
 	- Classification states:
