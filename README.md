@@ -60,7 +60,8 @@ The Intel® Pattern Matching Technology library provides the API's necessary to 
 The Pattern Matching Engine (PME) is a parralel data recognition engine with the following features:
 + 128 parallel Processing Elements (PE) each with"
   
-  	- 128 byte input vector and model memory.
+  	- 128 byte input vector 
+	- 128 byte model memory.
 	- 8-Bit Arithmetic Units
 	- Two distance evaluation norms with 16-bit resolution:
         	
