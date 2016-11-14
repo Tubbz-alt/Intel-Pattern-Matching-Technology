@@ -71,14 +71,14 @@ The Pattern Matching Engine (PME) is a parralel data recognition engine with the
 	- Support for up to 32,768 Categories
 	- Classification states:
   
-        	* ID  - Identified
-        	* UNC - Uncertain
-        	* UNK - Unknown
+           * ID  - Identified
+           * UNC - Uncertain
+           * UNK - Unknown
 		
 + Two Classification Functions:
   
-     	* k-nearest neighbors (KNN)
-     	* Radial Basis Function (RBF)
+     * k-nearest neighbors (KNN)
+     * Radial Basis Function (RBF)
 	
 + Support for up to 127 Contexts
   
