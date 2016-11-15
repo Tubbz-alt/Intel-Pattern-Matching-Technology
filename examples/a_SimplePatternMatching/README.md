@@ -4,6 +4,8 @@ This example is for a simple pattern matching function implemented using the Cur
 
 In a neural-network, unlike a programmed pattern matching algorithm, there is a learning phase when the neural-network is trained to recognize a training set of input patterns. Once this is done, the neural-network is able to recognize exactly matching or similar patterns and also identify patterns that are not part of the training set.
 
+In the simple pattern matching example, all committed neurons attempt to recognize the input pattern and classify it. However, the neuron with the smallest distance (error) is declared as the winner and the network outputs the winner's category.
+
 ## Hardware Requirements
 
    No additional hardware needed.
@@ -66,8 +68,3 @@ response that it does not match trained categories.
    You entered: 255,255,255
    Which didn't match any of the trained categories.
 ```
-
-
-
-
-
