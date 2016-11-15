@@ -11,6 +11,6 @@ as described in the library README.
 
         $(ARDUINOSW_DIR)/libraries/Intel-Pattern-Matching-Technology/examples
         
-* Use the procedure show in the following link to run the examples.
+* Use the procedure shown in the following link to run the examples.
 [Creating and Using Your Own Project](https://software.intel.com/en-us/node/700100)
 
