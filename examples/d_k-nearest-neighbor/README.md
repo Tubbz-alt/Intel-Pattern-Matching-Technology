@@ -4,7 +4,7 @@ This example is for a simple pattern classification function implemented using t
 
 The k-Nearest-Neighbor classification, also known in short-form as k-NN, is one of the basic and simplest machine learning algorithms. It is a form of instance-based learning also called memory-based learning because a hypothesis is constructed based on trained knowledge stored in memory which is based on the instances in the training set.
 
-Since the function is only approximated locally based on the training set and all computation or analysis is deferred until after classification, the algorithm is also termed as a lazy-learning algorithm. 
+Since the function is only approximated locally based on the training set and all computation or analysis is deferred until after classification, the algorithm is also termed as a lazy-learning algorithm. Classification is performed by comparing the unknown vector with it's nearest neighbors in terms of distance calculated by each committed neuron and assigning the category of the majority of the neighbors to the unknown vector.
 
 Because of this simplicity and localization of knowledge, the algorithm can be used to simutaneously solve multiple problems and adapts very well to changes in the problem space.
 
