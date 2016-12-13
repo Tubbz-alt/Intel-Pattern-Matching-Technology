@@ -23,8 +23,8 @@ The Curie PME is initially trained using 4 training data sets for each letter of
    * Connect the USB cable between the host machine and the Arduino/Genuino 101
    USB port or the tinyTile USB port
    
-   * Connect the push-button to Digital Pin 4 and wire it to pull-up high when pressed. 
-   [How to Wire a Push-Button](https://www.arduino.cc/en/Tutorial/Button)
+   * Connect the push-button to Digital Pin 4 and wire it to pull-up high when pressed. For more information on how to wire a Push-Button, refer to this tutorial 
+   [here.](https://www.arduino.cc/en/Tutorial/Button)
    
 **OR**
 
