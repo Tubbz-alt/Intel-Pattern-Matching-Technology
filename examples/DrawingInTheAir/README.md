@@ -1,4 +1,4 @@
-# Neural Network with Accelerometer Input Example
+# Drawing in The Air Example
 This sample is an application example for Intel Pattern Matching Technology. The sample sketch uses the built-in Accelerometer sensor inside the Curie module to detect motion. This data is used as an input to the PME to learn, recognize and classify the writing of alphabets in the air using the board as a stylus.
 
 The Curie PME is initially trained using 4 training data sets for each letter of the first 6 alphabets A through F. To start and stop data aquisition in both the learning and recognition phases, a push-button is used.
