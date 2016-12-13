@@ -48,7 +48,7 @@ Intel-Pattern-Matching-Technology
   
 ## API Reference
 
-
+[API Reference](API_Reference.md)
 
 ## About the Library
 The Intel® Pattern Matching Technology library provides the API's necessary to implement a machine-learning pattern matching or classification algorithms which are accelerated by the hardware pattern matching engine.
