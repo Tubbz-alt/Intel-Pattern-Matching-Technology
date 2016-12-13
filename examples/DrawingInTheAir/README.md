@@ -116,7 +116,7 @@ D
 E
 F
 ```
-
+If the classifier cannot recognize the pattern being drawn, it will prompt the user to try again.
 
 **For Example:**
 
