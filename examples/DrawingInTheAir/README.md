@@ -106,8 +106,20 @@ hold the button) and see if the PME can classify them.
 ```
 
 ### Output 
-TBD
+```
+Training complete. Now, draw some letters (remember to
+hold the button) and see if the PME can classify them.
+A
+B
+C
+D
+E
+F
+```
 
 
 **For Example:**
-TBD
+
+```
+Don't recognise that one-- try again.
+```
