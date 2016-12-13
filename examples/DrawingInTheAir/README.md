@@ -20,10 +20,15 @@ The Curie PME is initially trained using 4 training data sets for each letter of
    
 ### Hardware Connections
    
-   Connect the USB cable between the host machine and the Arduino/Genuino 101
+   * Connect the USB cable between the host machine and the Arduino/Genuino 101
    USB port or the tinyTile USB port
    
-   Connect 
+   * Connect the push-button to Digital Pin 4 and wire it to pull-up high when pressed. 
+   
+**OR**
+
+   * Install the Base Shield on the Arduino/Genuino 101
+   * Using the connecting Cable, hook-up the Grove Button to the D4 Connector on the Base Shield.
 
 [Serial Terminal Emulator Settings](../SerialSettings.md)
 
