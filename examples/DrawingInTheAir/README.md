@@ -46,8 +46,18 @@ The Curie PME is initially trained using 4 training data sets for each letter of
 
 **Note:** For best results, draw big letters, at least 1-2 feet tall.
 
-
-
+```
+Hold down the button and draw the letter 'A' in the air. Release the button as soon as you are done.
+Got it!
+And again...
+Got it!
+And again...
+Got it!
+And again...
+Got it!
+OK, finished with this letter.
+Hold down the button and draw the letter 'B' in the air. Release the button as soon as you are done.
+```
 
 ### Output 
 TBD
