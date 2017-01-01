@@ -61,7 +61,7 @@ The Intel® Pattern Matching Technology library provides the API's necessary to 
 
 ## About the Intel® Curie™ Pattern Matching Engine
 
-The Pattern Matching Engine (PME) is a parralel data recognition engine with the following features:
+The Pattern Matching Engine (PME) is a parallel data recognition engine with the following features:
 + 128 parallel Processing Elements (PE) each with"
   
   	- 128 byte input vector 
